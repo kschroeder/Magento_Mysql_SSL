@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <resource>
+            <connection>
+                <types>
+                    <secure_pdo_mysql>
+                        <adapter>Eschrade_Db_Pdo_Mysql</adapter>
+                        <class>Eschrade_Db_Pdo_Type_Mysql</class>
+                        <compatibleMode>1</compatibleMode>
+                    </secure_pdo_mysql>
+                </types>
+            </connection>
+        </resource>
+   	</global>
+</config>
