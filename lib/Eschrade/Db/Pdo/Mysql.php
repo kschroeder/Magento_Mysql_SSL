@@ -20,6 +20,10 @@ class Eschrade_Db_Pdo_Mysql extends Magento_Db_Adapter_Pdo_Mysql
                 }
             }
         }
+        if (isset($config['secure_driver_options']))
+        {
+            unset($config['secure_driver_options']);
+        }
         parent::__construct($config);
     }
     
